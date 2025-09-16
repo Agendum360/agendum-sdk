@@ -1,0 +1,34 @@
+{
+    "name": "verbania/verbania-sdk",
+    "description": "Verbania SDK for PHP applications",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Francesco",
+            "email": "francesco@verbania.dev"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0|^10.0",
+        "phpstan/phpstan": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Verbania\\SDK\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Verbania\\SDK\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    }
+}
