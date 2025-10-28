@@ -1,12 +1,12 @@
 {
     "name": "agendum/agendum-sdk",
-    "description": "Verbania SDK for PHP applications",
+    "description": "Agendum SDK for PHP applications",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Francesco",
-            "email": "francesco@verbania.dev"
+            "name": "Francesco Bianco",
+            "email": "bianco@javanile.org"
         }
     ],
     "require": {
