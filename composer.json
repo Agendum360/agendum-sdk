@@ -1,5 +1,5 @@
 {
-    "name": "verbania/verbania-sdk",
+    "name": "agendum/agendum-sdk",
     "description": "Verbania SDK for PHP applications",
     "type": "library",
     "license": "MIT",
