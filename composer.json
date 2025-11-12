@@ -13,17 +13,17 @@
         "php": "^8.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^9.0|^10.0",
+        "pestphp/pest": "^2.0",
         "phpstan/phpstan": "^1.0"
     },
     "autoload": {
         "psr-4": {
-            "Verbania\\SDK\\": "src/"
+            "Agendum\\Sdk\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Verbania\\SDK\\Tests\\": "tests/"
+            "Agendum\\Sdk\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "stable",
